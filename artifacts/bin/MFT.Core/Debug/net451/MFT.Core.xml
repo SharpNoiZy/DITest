@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MFT.Core</name>
+    </assembly>
+    <members>
+        <member name="P:MFT.Core.Data.Models.Customer.Id">
+            <summary>
+            Technical name of the customer without special chars
+            </summary>
+        </member>
+        <member name="T:MFT.Core.Data.Models.Job">
+            <summary>
+            A job is one mapping task. It's created and started by the MSAService.
+            </summary>
+        </member>
+        <member name="P:MFT.Core.Data.Models.Job.TransferCheckId">
+            <summary>
+            The id from the transfert check, this job was created by, null if it was a restarted job
+            </summary>
+        </member>
+        <member name="P:MFT.Core.Data.Models.Job.WasAlreadyRestarted">
+            <summary>
+            True, if this job was restarted sometime
+            </summary>
+        </member>
+        <member name="P:MFT.Core.Data.Models.Job.RestartedFromJobId">
+            <summary>
+            The orginal Job id, if this job is the result of a restart
+            </summary>
+        </member>
+        <member name="P:MFT.Core.Data.Models.JobPKInfo.ParentGtin">
+            <summary>
+            Descrips if this item is child of another item
+            </summary>
+        </member>
+        <member name="P:MFT.Core.Data.Models.LogEntry.LoggedOn">
+            <summary>
+            The moment on which the entry was created
+            </summary>
+        </member>
+        <member name="P:MFT.Core.Data.Models.LogEntry.Level">
+            <summary>
+            The log level for that Entry: [DEBUG], [INFO], [ERROR], [FATAL]
+            </summary>
+        </member>
+        <member name="P:MFT.Core.Data.Models.LogEntry.Message">
+            <summary>
+            The message
+            </summary>
+        </member>
+        <member name="P:MFT.Core.Data.Models.LogEntry.Exception">
+            <summary>
+            An optional exception text
+            </summary>
+        </member>
+        <member name="P:MFT.Core.Data.Models.MSAService.DelayBetweenJobSearches">
+            <summary>
+            This is the delay between job searches, given in seconds
+            </summary>
+        </member>
+        <member name="P:MFT.Core.Data.Models.MSAService.LastCommandCheck">
+            <summary>
+            Should be every 10 sec. the case, is it not, the Windows service is not running or dead
+            </summary>
+        </member>
+        <member name="P:MFT.Core.Data.Models.MSAService.IsWorkingOnJobs">
+            <summary>
+            This flag shows if the Service is watching and working on jobs, can also be false even though the Windows Service is up and running
+            </summary>
+        </member>
+        <member name="F:MFT.Core.Data.Models.Enums.LogLevel.DEBUG">
+            <summary>
+                Statements which are useful when you are still writing an application, and when you need a complete understanding of what/where your execution flow is.
+            </summary>
+        </member>
+        <member name="F:MFT.Core.Data.Models.Enums.LogLevel.INFO">
+            <summary>
+                Should be used whenever there is information which will be very useful if something goes wrong, but does not indicate that anything has gone wrong.
+            </summary>
+        </member>
+        <member name="F:MFT.Core.Data.Models.Enums.LogLevel.WARNING">
+            <summary>
+            Should be used if the application want to warn about something, that sould someone pay attention to 
+            </summary>
+        </member>
+        <member name="F:MFT.Core.Data.Models.Enums.LogLevel.ERROR">
+            <summary>
+            Errors which are not fatal, means the application can run without the faulty part, means maybe only a nice to have feature or something.
+            </summary>
+        </member>
+        <member name="F:MFT.Core.Data.Models.Enums.LogLevel.FATAL">
+            <summary>
+            Fatal error means, the application can not continue to run, for example the login doesn't work anymore, so no user can login to your page.
+            </summary>
+        </member>
+        <member name="M:MFT.Core.EventSourcing.Contracts.IApplyEvent`1.Apply(`0)">
+            <summary>
+            Will be invoked when the domain event is applied to an aggregate.
+            </summary>
+            <param name="domainEvent">Domin event to apply</param>
+        </member>
+        <member name="P:MFT.Core.EventSourcing.Contracts.IEvent.AggregateId">
+            <summary>
+            The aggregate id
+            </summary>
+        </member>
+        <member name="T:MFT.Core.EventSourcing.Contracts.IEventSourced">
+            <summary>
+            Represents an identifiable entity that is event sourced.
+            </summary>
+        </member>
+        <member name="P:MFT.Core.EventSourcing.Contracts.IEventSourced.Id">
+            <summary>
+            Gets the entity identifier.
+            </summary>
+        </member>
+        <member name="P:MFT.Core.EventSourcing.Contracts.IEventSourced.Version">
+            <summary>
+            Gets the entity's version. As the entity is being updated and events being generated, the version is incremented.
+            </summary>
+        </member>
+        <member name="P:MFT.Core.EventSourcing.Contracts.IEventSourced.Changes">
+            <summary>
+            Gets the collection of new events since the entity was loaded, as a consequence of command handling.
+            </summary>
+        </member>
+        <member name="T:MFT.Core.EventSourcing.Contracts.ISubscribeOn`1">
+            <summary>
+                Subscribes on a domain event
+            </summary>
+            <typeparam name="T">Domain event type</typeparam>
+            <remarks>
+                Read the interface name as <c>I Subscribe On "TheEventName"</c>.
+            </remarks>
+        </member>
+        <member name="M:MFT.Core.EventSourcing.Contracts.ISubscribeOn`1.Handle(`0)">
+            <summary>
+                Will be invoked when the domain event is published.
+            </summary>
+            <param name="domainEvent">Domin event to handle</param>
+        </member>
+    </members>
+</doc>
