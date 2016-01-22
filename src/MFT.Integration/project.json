@@ -7,7 +7,6 @@
 	"licenseUrl": "",
 
 	"dependencies": {
-		"Common.Cryptography": "1.0.1",
 		"MFT.Core": "1.0.0-*"
 	},
 

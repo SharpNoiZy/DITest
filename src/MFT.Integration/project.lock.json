@@ -3,21 +3,6 @@
   "version": 2,
   "targets": {
     ".NETFramework,Version=v4.5.1": {
-      "Common.Cryptography/1.0.1": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Common.Cryptography.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Common.Cryptography.dll": {}
-        }
-      },
       "EntityFramework.Core/7.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -285,25 +270,6 @@
       }
     },
     ".NETPlatform,Version=v5.4": {
-      "Common.Cryptography/1.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.CSharp": "4.0.1-beta-23516",
-          "System.Collections": "4.0.11-beta-23516",
-          "System.Linq": "4.0.1-beta-23516",
-          "System.Runtime": "4.0.21-beta-23516",
-          "System.Security.Cryptography.Algorithms": "4.0.0-beta-23516",
-          "System.Text.Encoding": "4.0.11-beta-23516",
-          "System.Text.Encoding.Extensions": "4.0.11-beta-23516",
-          "System.Threading": "4.0.11-beta-23516"
-        },
-        "compile": {
-          "lib/dotnet5.4/Common.Cryptography.dll": {}
-        },
-        "runtime": {
-          "lib/dotnet5.4/Common.Cryptography.dll": {}
-        }
-      },
       "EntityFramework.Core/7.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -926,52 +892,13 @@
           "ref/dotnet5.4/System.Runtime.InteropServices.dll": {}
         }
       },
-      "System.Security.Cryptography.Algorithms/4.0.0-beta-23516": {
-        "type": "package",
-        "dependencies": {
-          "System.IO": "4.0.0",
-          "System.Runtime": "4.0.0",
-          "System.Security.Cryptography.Primitives": "4.0.0-beta-23516"
-        },
-        "compile": {
-          "ref/dotnet5.1/System.Security.Cryptography.Algorithms.dll": {}
-        }
-      },
-      "System.Security.Cryptography.Primitives/4.0.0-beta-23516": {
-        "type": "package",
-        "dependencies": {
-          "System.Diagnostics.Debug": "4.0.0",
-          "System.Globalization": "4.0.0",
-          "System.IO": "4.0.10",
-          "System.Resources.ResourceManager": "4.0.0",
-          "System.Runtime": "4.0.20",
-          "System.Threading": "4.0.0",
-          "System.Threading.Tasks": "4.0.0"
-        },
-        "compile": {
-          "ref/dotnet5.1/System.Security.Cryptography.Primitives.dll": {}
-        },
-        "runtime": {
-          "lib/dotnet5.4/System.Security.Cryptography.Primitives.dll": {}
-        }
-      },
-      "System.Text.Encoding/4.0.11-beta-23516": {
+      "System.Text.Encoding/4.0.0": {
         "type": "package",
         "dependencies": {
           "System.Runtime": "4.0.0"
         },
         "compile": {
-          "ref/dotnet5.4/System.Text.Encoding.dll": {}
-        }
-      },
-      "System.Text.Encoding.Extensions/4.0.11-beta-23516": {
-        "type": "package",
-        "dependencies": {
-          "System.Runtime": "4.0.0",
-          "System.Text.Encoding": "4.0.10"
-        },
-        "compile": {
-          "ref/dotnet5.4/System.Text.Encoding.Extensions.dll": {}
+          "ref/dotnet/System.Text.Encoding.dll": {}
         }
       },
       "System.Text.RegularExpressions/4.0.10": {
@@ -1012,21 +939,6 @@
       }
     },
     ".NETFramework,Version=v4.5.1/win7-x86": {
-      "Common.Cryptography/1.0.1": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Common.Cryptography.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Common.Cryptography.dll": {}
-        }
-      },
       "EntityFramework.Core/7.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -1294,21 +1206,6 @@
       }
     },
     ".NETFramework,Version=v4.5.1/win7-x64": {
-      "Common.Cryptography/1.0.1": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Common.Cryptography.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Common.Cryptography.dll": {}
-        }
-      },
       "EntityFramework.Core/7.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -1576,25 +1473,6 @@
       }
     },
     ".NETPlatform,Version=v5.4/win7-x86": {
-      "Common.Cryptography/1.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.CSharp": "4.0.1-beta-23516",
-          "System.Collections": "4.0.11-beta-23516",
-          "System.Linq": "4.0.1-beta-23516",
-          "System.Runtime": "4.0.21-beta-23516",
-          "System.Security.Cryptography.Algorithms": "4.0.0-beta-23516",
-          "System.Text.Encoding": "4.0.11-beta-23516",
-          "System.Text.Encoding.Extensions": "4.0.11-beta-23516",
-          "System.Threading": "4.0.11-beta-23516"
-        },
-        "compile": {
-          "lib/dotnet5.4/Common.Cryptography.dll": {}
-        },
-        "runtime": {
-          "lib/dotnet5.4/Common.Cryptography.dll": {}
-        }
-      },
       "EntityFramework.Core/7.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -1918,25 +1796,6 @@
         "type": "package",
         "compile": {
           "ref/dotnet/_._": {}
-        }
-      },
-      "runtime.win7.System.Security.Cryptography.Algorithms/4.0.0-beta-23516": {
-        "type": "package",
-        "dependencies": {
-          "System.IO": "4.0.10",
-          "System.Resources.ResourceManager": "4.0.0",
-          "System.Runtime": "4.0.20",
-          "System.Runtime.Handles": "4.0.0",
-          "System.Runtime.InteropServices": "4.0.20",
-          "System.Security.Cryptography.Primitives": "4.0.0-beta-23516",
-          "System.Text.Encoding": "4.0.0",
-          "System.Text.Encoding.Extensions": "4.0.0"
-        },
-        "compile": {
-          "ref/dotnet/_._": {}
-        },
-        "runtime": {
-          "runtimes/win7/lib/dotnet5.4/System.Security.Cryptography.Algorithms.dll": {}
         }
       },
       "runtime.win7.System.Threading/4.0.11-beta-23516": {
@@ -2284,52 +2143,23 @@
           "ref/dotnet5.4/System.Runtime.InteropServices.dll": {}
         }
       },
-      "System.Security.Cryptography.Algorithms/4.0.0-beta-23516": {
-        "type": "package",
-        "dependencies": {
-          "System.IO": "4.0.0",
-          "System.Runtime": "4.0.0",
-          "System.Security.Cryptography.Primitives": "4.0.0-beta-23516"
-        },
-        "compile": {
-          "ref/dotnet5.1/System.Security.Cryptography.Algorithms.dll": {}
-        }
-      },
-      "System.Security.Cryptography.Primitives/4.0.0-beta-23516": {
-        "type": "package",
-        "dependencies": {
-          "System.Diagnostics.Debug": "4.0.0",
-          "System.Globalization": "4.0.0",
-          "System.IO": "4.0.10",
-          "System.Resources.ResourceManager": "4.0.0",
-          "System.Runtime": "4.0.20",
-          "System.Threading": "4.0.0",
-          "System.Threading.Tasks": "4.0.0"
-        },
-        "compile": {
-          "ref/dotnet5.1/System.Security.Cryptography.Primitives.dll": {}
-        },
-        "runtime": {
-          "lib/dotnet5.4/System.Security.Cryptography.Primitives.dll": {}
-        }
-      },
-      "System.Text.Encoding/4.0.11-beta-23516": {
+      "System.Text.Encoding/4.0.0": {
         "type": "package",
         "dependencies": {
           "System.Runtime": "4.0.0"
         },
         "compile": {
-          "ref/dotnet5.4/System.Text.Encoding.dll": {}
+          "ref/dotnet/System.Text.Encoding.dll": {}
         }
       },
-      "System.Text.Encoding.Extensions/4.0.11-beta-23516": {
+      "System.Text.Encoding.Extensions/4.0.10": {
         "type": "package",
         "dependencies": {
           "System.Runtime": "4.0.0",
           "System.Text.Encoding": "4.0.10"
         },
         "compile": {
-          "ref/dotnet5.4/System.Text.Encoding.Extensions.dll": {}
+          "ref/dotnet/System.Text.Encoding.Extensions.dll": {}
         }
       },
       "System.Text.RegularExpressions/4.0.10": {
@@ -2380,25 +2210,6 @@
       }
     },
     ".NETPlatform,Version=v5.4/win7-x64": {
-      "Common.Cryptography/1.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.CSharp": "4.0.1-beta-23516",
-          "System.Collections": "4.0.11-beta-23516",
-          "System.Linq": "4.0.1-beta-23516",
-          "System.Runtime": "4.0.21-beta-23516",
-          "System.Security.Cryptography.Algorithms": "4.0.0-beta-23516",
-          "System.Text.Encoding": "4.0.11-beta-23516",
-          "System.Text.Encoding.Extensions": "4.0.11-beta-23516",
-          "System.Threading": "4.0.11-beta-23516"
-        },
-        "compile": {
-          "lib/dotnet5.4/Common.Cryptography.dll": {}
-        },
-        "runtime": {
-          "lib/dotnet5.4/Common.Cryptography.dll": {}
-        }
-      },
       "EntityFramework.Core/7.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -2722,25 +2533,6 @@
         "type": "package",
         "compile": {
           "ref/dotnet/_._": {}
-        }
-      },
-      "runtime.win7.System.Security.Cryptography.Algorithms/4.0.0-beta-23516": {
-        "type": "package",
-        "dependencies": {
-          "System.IO": "4.0.10",
-          "System.Resources.ResourceManager": "4.0.0",
-          "System.Runtime": "4.0.20",
-          "System.Runtime.Handles": "4.0.0",
-          "System.Runtime.InteropServices": "4.0.20",
-          "System.Security.Cryptography.Primitives": "4.0.0-beta-23516",
-          "System.Text.Encoding": "4.0.0",
-          "System.Text.Encoding.Extensions": "4.0.0"
-        },
-        "compile": {
-          "ref/dotnet/_._": {}
-        },
-        "runtime": {
-          "runtimes/win7/lib/dotnet5.4/System.Security.Cryptography.Algorithms.dll": {}
         }
       },
       "runtime.win7.System.Threading/4.0.11-beta-23516": {
@@ -3088,52 +2880,23 @@
           "ref/dotnet5.4/System.Runtime.InteropServices.dll": {}
         }
       },
-      "System.Security.Cryptography.Algorithms/4.0.0-beta-23516": {
-        "type": "package",
-        "dependencies": {
-          "System.IO": "4.0.0",
-          "System.Runtime": "4.0.0",
-          "System.Security.Cryptography.Primitives": "4.0.0-beta-23516"
-        },
-        "compile": {
-          "ref/dotnet5.1/System.Security.Cryptography.Algorithms.dll": {}
-        }
-      },
-      "System.Security.Cryptography.Primitives/4.0.0-beta-23516": {
-        "type": "package",
-        "dependencies": {
-          "System.Diagnostics.Debug": "4.0.0",
-          "System.Globalization": "4.0.0",
-          "System.IO": "4.0.10",
-          "System.Resources.ResourceManager": "4.0.0",
-          "System.Runtime": "4.0.20",
-          "System.Threading": "4.0.0",
-          "System.Threading.Tasks": "4.0.0"
-        },
-        "compile": {
-          "ref/dotnet5.1/System.Security.Cryptography.Primitives.dll": {}
-        },
-        "runtime": {
-          "lib/dotnet5.4/System.Security.Cryptography.Primitives.dll": {}
-        }
-      },
-      "System.Text.Encoding/4.0.11-beta-23516": {
+      "System.Text.Encoding/4.0.0": {
         "type": "package",
         "dependencies": {
           "System.Runtime": "4.0.0"
         },
         "compile": {
-          "ref/dotnet5.4/System.Text.Encoding.dll": {}
+          "ref/dotnet/System.Text.Encoding.dll": {}
         }
       },
-      "System.Text.Encoding.Extensions/4.0.11-beta-23516": {
+      "System.Text.Encoding.Extensions/4.0.10": {
         "type": "package",
         "dependencies": {
           "System.Runtime": "4.0.0",
           "System.Text.Encoding": "4.0.10"
         },
         "compile": {
-          "ref/dotnet5.4/System.Text.Encoding.Extensions.dll": {}
+          "ref/dotnet/System.Text.Encoding.Extensions.dll": {}
         }
       },
       "System.Text.RegularExpressions/4.0.10": {
@@ -3188,19 +2951,6 @@
     "MFT.Core/1.0.0": {
       "type": "project",
       "path": "../MFT.Core/project.json"
-    },
-    "Common.Cryptography/1.0.1": {
-      "type": "package",
-      "sha512": "pe/ILSs2xhYod/Hwy1uKf1pmzlmTCdwFvQ3wWxrD9SeWV3K7GPHd2h7A5d4+uThuC11QmOSbUIPS6msrg/jocg==",
-      "files": [
-        "Common.Cryptography.1.0.1.nupkg",
-        "Common.Cryptography.1.0.1.nupkg.sha512",
-        "Common.Cryptography.nuspec",
-        "lib/dotnet5.4/Common.Cryptography.dll",
-        "lib/dotnet5.4/Common.Cryptography.xml",
-        "lib/net451/Common.Cryptography.dll",
-        "lib/net451/Common.Cryptography.xml"
-      ]
     },
     "EntityFramework.Core/7.0.0-rc1-final": {
       "type": "package",
@@ -3543,19 +3293,6 @@
         "runtime.win7.System.Runtime.Extensions.4.0.11-beta-23516.nupkg.sha512",
         "runtime.win7.System.Runtime.Extensions.nuspec",
         "runtimes/win8-aot/lib/netcore50/System.Runtime.Extensions.dll"
-      ]
-    },
-    "runtime.win7.System.Security.Cryptography.Algorithms/4.0.0-beta-23516": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "MRAq2N94D6wKC5UFbUZVWcOz8YpknDj6ttOpF5R3sxBdZJWI6qUngnGdHE2eYAuCerHlLV/0m4WJxoSaQHDNTA==",
-      "files": [
-        "ref/dotnet/_._",
-        "runtime.win7.System.Security.Cryptography.Algorithms.4.0.0-beta-23516.nupkg",
-        "runtime.win7.System.Security.Cryptography.Algorithms.4.0.0-beta-23516.nupkg.sha512",
-        "runtime.win7.System.Security.Cryptography.Algorithms.nuspec",
-        "runtimes/win7/lib/dotnet5.4/System.Security.Cryptography.Algorithms.dll",
-        "runtimes/win7/lib/net/_._"
       ]
     },
     "runtime.win7.System.Threading/4.0.11-beta-23516": {
@@ -4903,87 +4640,30 @@
         "System.Runtime.InteropServices.nuspec"
       ]
     },
-    "System.Security.Cryptography.Algorithms/4.0.0-beta-23516": {
+    "System.Text.Encoding/4.0.0": {
       "type": "package",
-      "serviceable": true,
-      "sha512": "yvMpzC6Cd/UBHB3LU4z4jorW8nuitQfG171R8INxoUtNTZPBUmVhW4MW4adQYmwZ9IJ5C5rxnXKNfsvF5g9eog==",
+      "sha512": "AMxFNOXpA6Ab8swULbXuJmoT2K5w6TnV3ObF5wsmEcIHQUJghoZtDVfVHb08O2wW15mOSI1i9Wg0Dx0pY13o8g==",
       "files": [
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/net46/System.Security.Cryptography.Algorithms.dll",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "ref/dotnet5.1/System.Security.Cryptography.Algorithms.dll",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/net46/System.Security.Cryptography.Algorithms.dll",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "runtime.json",
-        "System.Security.Cryptography.Algorithms.4.0.0-beta-23516.nupkg",
-        "System.Security.Cryptography.Algorithms.4.0.0-beta-23516.nupkg.sha512",
-        "System.Security.Cryptography.Algorithms.nuspec"
-      ]
-    },
-    "System.Security.Cryptography.Primitives/4.0.0-beta-23516": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "YEHmq6x6u2grEuZFAX9au+6uY8SCIkA6lu4wbrt2C71RFQKWEyO5G9+pk1v0QcNPqay/38aSm9v/BoTFNQii1Q==",
-      "files": [
-        "lib/dotnet5.4/System.Security.Cryptography.Primitives.dll",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/net46/System.Security.Cryptography.Primitives.dll",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "ref/dotnet5.1/System.Security.Cryptography.Primitives.dll",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/net46/System.Security.Cryptography.Primitives.dll",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "System.Security.Cryptography.Primitives.4.0.0-beta-23516.nupkg",
-        "System.Security.Cryptography.Primitives.4.0.0-beta-23516.nupkg.sha512",
-        "System.Security.Cryptography.Primitives.nuspec"
-      ]
-    },
-    "System.Text.Encoding/4.0.11-beta-23516": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "gk4da/Y3VReZpIeQ3UDTCknbkO/FuYKOJtP+5+Vtc07mTcPHvhgbZLXEGTTneP6yWPDWTTh20nZZMF/19YsRtA==",
-      "files": [
-        "lib/DNXCore50/System.Text.Encoding.dll",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/net45/_._",
-        "lib/netcore50/System.Text.Encoding.dll",
         "lib/win8/_._",
         "lib/wp80/_._",
         "lib/wpa81/_._",
         "lib/xamarinios10/_._",
         "lib/xamarinmac20/_._",
-        "ref/dotnet5.1/de/System.Text.Encoding.xml",
-        "ref/dotnet5.1/es/System.Text.Encoding.xml",
-        "ref/dotnet5.1/fr/System.Text.Encoding.xml",
-        "ref/dotnet5.1/it/System.Text.Encoding.xml",
-        "ref/dotnet5.1/ja/System.Text.Encoding.xml",
-        "ref/dotnet5.1/ko/System.Text.Encoding.xml",
-        "ref/dotnet5.1/ru/System.Text.Encoding.xml",
-        "ref/dotnet5.1/System.Text.Encoding.dll",
-        "ref/dotnet5.1/System.Text.Encoding.xml",
-        "ref/dotnet5.1/zh-hans/System.Text.Encoding.xml",
-        "ref/dotnet5.1/zh-hant/System.Text.Encoding.xml",
-        "ref/dotnet5.4/de/System.Text.Encoding.xml",
-        "ref/dotnet5.4/es/System.Text.Encoding.xml",
-        "ref/dotnet5.4/fr/System.Text.Encoding.xml",
-        "ref/dotnet5.4/it/System.Text.Encoding.xml",
-        "ref/dotnet5.4/ja/System.Text.Encoding.xml",
-        "ref/dotnet5.4/ko/System.Text.Encoding.xml",
-        "ref/dotnet5.4/ru/System.Text.Encoding.xml",
-        "ref/dotnet5.4/System.Text.Encoding.dll",
-        "ref/dotnet5.4/System.Text.Encoding.xml",
-        "ref/dotnet5.4/zh-hans/System.Text.Encoding.xml",
-        "ref/dotnet5.4/zh-hant/System.Text.Encoding.xml",
+        "License.rtf",
+        "ref/dotnet/de/System.Text.Encoding.xml",
+        "ref/dotnet/es/System.Text.Encoding.xml",
+        "ref/dotnet/fr/System.Text.Encoding.xml",
+        "ref/dotnet/it/System.Text.Encoding.xml",
+        "ref/dotnet/ja/System.Text.Encoding.xml",
+        "ref/dotnet/ko/System.Text.Encoding.xml",
+        "ref/dotnet/ru/System.Text.Encoding.xml",
+        "ref/dotnet/System.Text.Encoding.dll",
+        "ref/dotnet/System.Text.Encoding.xml",
+        "ref/dotnet/zh-hans/System.Text.Encoding.xml",
+        "ref/dotnet/zh-hant/System.Text.Encoding.xml",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
         "ref/net45/_._",
@@ -5003,71 +4683,41 @@
         "ref/wpa81/_._",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
-        "runtimes/win8-aot/lib/netcore50/System.Text.Encoding.dll",
-        "System.Text.Encoding.4.0.11-beta-23516.nupkg",
-        "System.Text.Encoding.4.0.11-beta-23516.nupkg.sha512",
+        "System.Text.Encoding.4.0.0.nupkg",
+        "System.Text.Encoding.4.0.0.nupkg.sha512",
         "System.Text.Encoding.nuspec"
       ]
     },
-    "System.Text.Encoding.Extensions/4.0.11-beta-23516": {
+    "System.Text.Encoding.Extensions/4.0.10": {
       "type": "package",
-      "serviceable": true,
-      "sha512": "K7tNpcWcJ3ck2GRumeQrwOY6c4NZzi2XNMWhRBzZVbj4Kq1gzrXeu76AlkOgv8aUBn5UyLeshBOhBgFhAgFmMw==",
+      "sha512": "TZvlwXMxKo3bSRIcsWZLCIzIhLbvlz+mGeKYRZv/zUiSoQzGOwkYeBu6hOw2XPQgKqT0F4Rv8zqKdvmp2fWKYg==",
       "files": [
         "lib/DNXCore50/System.Text.Encoding.Extensions.dll",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
-        "lib/net45/_._",
+        "lib/net46/_._",
         "lib/netcore50/System.Text.Encoding.Extensions.dll",
-        "lib/win8/_._",
-        "lib/wp80/_._",
-        "lib/wpa81/_._",
         "lib/xamarinios10/_._",
         "lib/xamarinmac20/_._",
-        "ref/dotnet5.1/de/System.Text.Encoding.Extensions.xml",
-        "ref/dotnet5.1/es/System.Text.Encoding.Extensions.xml",
-        "ref/dotnet5.1/fr/System.Text.Encoding.Extensions.xml",
-        "ref/dotnet5.1/it/System.Text.Encoding.Extensions.xml",
-        "ref/dotnet5.1/ja/System.Text.Encoding.Extensions.xml",
-        "ref/dotnet5.1/ko/System.Text.Encoding.Extensions.xml",
-        "ref/dotnet5.1/ru/System.Text.Encoding.Extensions.xml",
-        "ref/dotnet5.1/System.Text.Encoding.Extensions.dll",
-        "ref/dotnet5.1/System.Text.Encoding.Extensions.xml",
-        "ref/dotnet5.1/zh-hans/System.Text.Encoding.Extensions.xml",
-        "ref/dotnet5.1/zh-hant/System.Text.Encoding.Extensions.xml",
-        "ref/dotnet5.4/de/System.Text.Encoding.Extensions.xml",
-        "ref/dotnet5.4/es/System.Text.Encoding.Extensions.xml",
-        "ref/dotnet5.4/fr/System.Text.Encoding.Extensions.xml",
-        "ref/dotnet5.4/it/System.Text.Encoding.Extensions.xml",
-        "ref/dotnet5.4/ja/System.Text.Encoding.Extensions.xml",
-        "ref/dotnet5.4/ko/System.Text.Encoding.Extensions.xml",
-        "ref/dotnet5.4/ru/System.Text.Encoding.Extensions.xml",
-        "ref/dotnet5.4/System.Text.Encoding.Extensions.dll",
-        "ref/dotnet5.4/System.Text.Encoding.Extensions.xml",
-        "ref/dotnet5.4/zh-hans/System.Text.Encoding.Extensions.xml",
-        "ref/dotnet5.4/zh-hant/System.Text.Encoding.Extensions.xml",
+        "ref/dotnet/de/System.Text.Encoding.Extensions.xml",
+        "ref/dotnet/es/System.Text.Encoding.Extensions.xml",
+        "ref/dotnet/fr/System.Text.Encoding.Extensions.xml",
+        "ref/dotnet/it/System.Text.Encoding.Extensions.xml",
+        "ref/dotnet/ja/System.Text.Encoding.Extensions.xml",
+        "ref/dotnet/ko/System.Text.Encoding.Extensions.xml",
+        "ref/dotnet/ru/System.Text.Encoding.Extensions.xml",
+        "ref/dotnet/System.Text.Encoding.Extensions.dll",
+        "ref/dotnet/System.Text.Encoding.Extensions.xml",
+        "ref/dotnet/zh-hans/System.Text.Encoding.Extensions.xml",
+        "ref/dotnet/zh-hant/System.Text.Encoding.Extensions.xml",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
-        "ref/net45/_._",
-        "ref/netcore50/de/System.Text.Encoding.Extensions.xml",
-        "ref/netcore50/es/System.Text.Encoding.Extensions.xml",
-        "ref/netcore50/fr/System.Text.Encoding.Extensions.xml",
-        "ref/netcore50/it/System.Text.Encoding.Extensions.xml",
-        "ref/netcore50/ja/System.Text.Encoding.Extensions.xml",
-        "ref/netcore50/ko/System.Text.Encoding.Extensions.xml",
-        "ref/netcore50/ru/System.Text.Encoding.Extensions.xml",
-        "ref/netcore50/System.Text.Encoding.Extensions.dll",
-        "ref/netcore50/System.Text.Encoding.Extensions.xml",
-        "ref/netcore50/zh-hans/System.Text.Encoding.Extensions.xml",
-        "ref/netcore50/zh-hant/System.Text.Encoding.Extensions.xml",
-        "ref/win8/_._",
-        "ref/wp80/_._",
-        "ref/wpa81/_._",
+        "ref/net46/_._",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "runtimes/win8-aot/lib/netcore50/System.Text.Encoding.Extensions.dll",
-        "System.Text.Encoding.Extensions.4.0.11-beta-23516.nupkg",
-        "System.Text.Encoding.Extensions.4.0.11-beta-23516.nupkg.sha512",
+        "System.Text.Encoding.Extensions.4.0.10.nupkg",
+        "System.Text.Encoding.Extensions.4.0.10.nupkg.sha512",
         "System.Text.Encoding.Extensions.nuspec"
       ]
     },
@@ -5253,7 +4903,6 @@
   },
   "projectFileDependencyGroups": {
     "": [
-      "Common.Cryptography >= 1.0.1",
       "MFT.Core >= 1.0.0-*"
     ],
     ".NETFramework,Version=v4.5.1": [],

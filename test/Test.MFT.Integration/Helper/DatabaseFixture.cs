@@ -1,5 +1,4 @@
-﻿using Common.Cryptography;
-using MFT.Core.CQRS;
+﻿using MFT.Core.CQRS;
 using MFT.Core.CQRS.Contracts;
 using MFT.Core.Data;
 using MFT.Core.Data.Models;
@@ -31,7 +30,7 @@ namespace Test.MFT.Integration.Helper
 			{
 				UserRole = "Admin",
 				Username = "cneuss",
-				PasswordHash = Crypto.Sha512Hash("test123"),
+				PasswordHash = "test123", // Crypto.Sha512Hash("test123")
 				Timezone = "W. Europe Standard Time"
 			});
 		}

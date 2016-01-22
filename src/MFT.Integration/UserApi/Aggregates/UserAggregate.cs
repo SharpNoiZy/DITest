@@ -11,7 +11,6 @@ using Microsoft.Extensions.DependencyInjection;
 using MFT.Integration.UserApi.Events;
 using MFT.Core.EventSourcing.Contracts;
 using MFT.Core.Data.Models;
-using Common.Cryptography;
 using MFT.Core.CQRS;
 using MFT.Core.Aggregates;
 
@@ -40,7 +39,7 @@ namespace MFT.Integration.UserApi.Aggregates
 				throw new Exception("There is already a user with this username.");
 
 
-			string hashedPassword = Crypto.Sha512Hash(command.Password);
+			string hashedPassword = command.Password; // Crypto.Sha512Hash(command.Password);
 
 			ApplyChange(new UserCreated(command.Id, command.Username, hashedPassword, command.EMail, command.Timezone, command.UserRole));
 		}

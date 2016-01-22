@@ -1,5 +1,4 @@
-﻿using Common.Cryptography;
-using MFT.Core.CQRS.Contracts;
+﻿using MFT.Core.CQRS.Contracts;
 using MFT.Core.Data;
 using MFT.Core.Data.Models;
 using MFT.Core.EventSourcing.Contracts;
@@ -23,7 +22,7 @@ namespace MFT.Integration.UserApi.Queries
 
 		public async Task<GetUserByCredentialsResult> Retrieve(GetUserByCredentials query)
 		{
-			string hashedPassword = Crypto.Sha512Hash(query.Password);
+			string hashedPassword = query.Password; // Crypto.Sha512Hash(query.Password);
 
 			//join role in _dataSession.Set<UserRole>() on user.UserRoleId equals role.Id			
 			var dbResult = from user in _readContext.Set<User>()
